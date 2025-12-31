@@ -1,0 +1,609 @@
+[2025-12-31T17:46:00.735Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 9520 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 9520 ms
+[2025-12-31T17:47:31.691Z] ❌ User Deletes Their Account [FAIL]
+  🔹 Email Used: Not set
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_delete_account/user_delete_account_1767203251480.png
+  🔹 Checks Completed:
+[2025-12-31T17:47:37.358Z] ❌ User Deletes Their Account [FAIL]
+  🔹 Email Used: Not set
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_delete_account/user_delete_account_1767203257136.png
+  🔹 Checks Completed:
+[2025-12-31T17:47:54.663Z] ✅ User Deletes Their Account [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Final URL: https://ethiofind.com/user/login
+  🔹 Response Time: 14478 ms
+  🔹 Result: Account deletion completed
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Successfully logged in and redirected
+     ✔ Clicked Edit Profile button
+     ✔ Redirected to edit profile page
+     ✔ Clicked Delete Account link
+     ✔ Redirected to delete account confirmation page
+     ✔ Selected 'Yes' to confirm account deletion
+     ✔ Clicked Delete Account confirmation button
+     ✔ Final URL after deletion: https://ethiofind.com/user/login
+     ✔ Account deletion completed but slower than expected (14478 ms)
+[2025-12-31T17:52:00.782Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: N/A
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767203520563.png
+  🔹 Checks Completed:
+[2025-12-31T17:52:12.451Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: ci_user_1767203526484@test.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 9227 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: ci_user_1767203526484@test.com
+     ✔ URL before submit: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after submit: https://ethiofind.com/user/login
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 9227 ms
+[2025-12-31T17:53:04.582Z] ❌ User Deletes Their Account [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 10043ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_delete_account/user_delete_account_1767203584150.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:53:13.436Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203592945.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:53:18.110Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203597589.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:53:21.268Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203600692.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:53:24.166Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203603505.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:53:36.944Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203616553.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:53:40.853Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203620213.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:54:05.136Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203644877.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:54:32.264Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203671942.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:54:37.665Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: N/A
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767203677469.png
+  🔹 Checks Completed:
+[2025-12-31T17:54:49.786Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: ci_user_1767203684029@test.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 9622 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: ci_user_1767203684029@test.com
+     ✔ URL before submit: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after submit: https://ethiofind.com/user/login
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 9622 ms
+[2025-12-31T17:54:53.656Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203693143.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:54:56.912Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203696186.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:55:09.810Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203709452.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:55:26.090Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203725735.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:55:29.634Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203728868.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:55:34.247Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203734003.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+[2025-12-31T17:55:40.904Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203740241.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:55:53.757Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203753452.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:56:30.456Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203790076.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:56:33.517Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203793018.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:56:36.536Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203795981.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:56:58.275Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed after activation: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203817976.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/d74513043c0616d9c05d3544de99ae4155bef425dd8e06424f3e3fb66b5041a0
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activated - redirected to login page
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:57:46.207Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: Not set
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767203865924.png
+  🔹 Checks Completed:
+[2025-12-31T17:57:53.212Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: Not set
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767203872967.png
+  🔹 Checks Completed:
+[2025-12-31T17:58:14.246Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: Not set
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767203893965.png
+  🔹 Checks Completed:
+[2025-12-31T17:58:29.267Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767203908889.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T17:58:34.772Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203914335.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:58:38.335Z] ❌ User Activates Account and Verifies Login [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: Not retrieved
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: connect ECONNREFUSED 145.223.97.157:443
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_activate_account/user_activate_account_1767203917944.png
+  🔹 Checks Completed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+[2025-12-31T17:58:48.400Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: N/A
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=143.0.7499.146)
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767203928178.png
+  🔹 Checks Completed:
+[2025-12-31T17:59:13.157Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: ci_user_1767203939583@test.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 10026ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767203952838.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: ci_user_1767203939583@test.com
+     ✔ URL before submit: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+[2025-12-31T18:00:49.486Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Too many registration attempts. Please try again later.
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767204049152.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+     ✔ Backend validation error received
+[2025-12-31T18:03:58.752Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 10116ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767204238385.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+[2025-12-31T18:04:30.007Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 23546 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 23546 ms
+[2025-12-31T18:04:53.176Z] ✅ User Activates Account and Verifies Login [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/ebe6a3d7b23c6a4985bf7898daeccf969d145acfbb13b7d896216537067067b9
+  🔹 Final URL After Login: https://ethiofind.com/user/profile
+  🔹 Response Time: 18473 ms
+  🔹 Result: Account activation and login verification successful
+  🔹 Checks Passed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/ebe6a3d7b23c6a4985bf7898daeccf969d145acfbb13b7d896216537067067b9
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activation success: Account activated successfully. You can log in now
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Login successful after activation - redirected to: https://ethiofind.com/user/profile
+     ✔ Logout button confirmed: "LOGOUT"
+     ✔ Account activation and verification completed but slower than expected (18473 ms)
+[2025-12-31T18:11:21.827Z] ❌ User Deletes Their Account [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 10051ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_delete_account/user_delete_account_1767204681490.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T18:12:36.658Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: N/A
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Waiting for element to be located By(css selector, *[name="username"])
+Wait timed out after 10115ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767204756391.png
+  🔹 Checks Completed:
+[2025-12-31T18:13:52.591Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 11553 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 11553 ms
+[2025-12-31T18:14:13.315Z] ✅ User Activates Account and Verifies Login [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/7d612d9c473de516ce52441c35c3a70d57784bbe0fddc0861f8394216e314374
+  🔹 Final URL After Login: https://ethiofind.com/user/profile
+  🔹 Response Time: 14566 ms
+  🔹 Result: Account activation and login verification successful
+  🔹 Checks Passed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/7d612d9c473de516ce52441c35c3a70d57784bbe0fddc0861f8394216e314374
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activation success: Account activated successfully. You can log in now
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Login successful after activation - redirected to: https://ethiofind.com/user/profile
+     ✔ Logout button confirmed: "LOGOUT"
+     ✔ Account activation and verification completed but slower than expected (14566 ms)
+[2025-12-31T18:14:33.306Z] ✅ User Deletes Their Account [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Final URL: https://ethiofind.com/user/login
+  🔹 Response Time: 15603 ms
+  🔹 Result: Account deletion completed
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Successfully logged in and redirected
+     ✔ Clicked Edit Profile button
+     ✔ Redirected to edit profile page
+     ✔ Clicked Delete Account link
+     ✔ Redirected to delete account confirmation page
+     ✔ Selected 'Yes' to confirm account deletion
+     ✔ Clicked Delete Account confirmation button
+     ✔ Final URL after deletion: https://ethiofind.com/user/login
+     ✔ Account deletion completed but slower than expected (15603 ms)
+[2025-12-31T18:21:07.362Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 10041ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767205266701.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+[2025-12-31T18:36:03.689Z] ❌ User Registration Test [FAIL]
+  🔹 Field Requirements: [object Object]
+  🔹 Failure Reason: start is not defined
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register_error/user_register_error_1767206163210.png
+  🔹 Partial Results:
+[2025-12-31T18:42:33.750Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: N/A
+  🔹 Response Time: 14701 ms
+  🔹 Failure Reason: messageText is not defined
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767206552998.png
+  🔹 Checks Completed:
+     ✔ Page fully loaded
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 14701 ms
+[2025-12-31T18:43:03.826Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Too many registration attempts. Please try again later.
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767206583424.png
+  🔹 Checks Completed:
+     ✔ Page fully loaded
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+     ✔ Backend validation error received: Too many registration attempts. Please try again later.
+[2025-12-31T18:43:27.932Z] ✅ User Activates Account and Verifies Login [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/8d7d5ebf8833e6f56bf892118849f1e5c8b6d584d520de096fe3063dafea4680
+  🔹 Final URL After Login: https://ethiofind.com/user/profile
+  🔹 Response Time: 12380 ms
+  🔹 Result: Account activation and login verification successful
+  🔹 Checks Passed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/8d7d5ebf8833e6f56bf892118849f1e5c8b6d584d520de096fe3063dafea4680
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activation success: Account activated successfully. You can log in now
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Login successful after activation - redirected to: https://ethiofind.com/user/profile
+     ✔ Logout button confirmed: "LOGOUT"
+     ✔ Account activation and verification completed but slower than expected (12380 ms)
+[2025-12-31T18:54:07.683Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Too many registration attempts. Please try again later.
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767207247373.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+     ✔ Backend validation error received
+[2025-12-31T18:56:56.934Z] ❌ User Registers a New Account Successfully [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: N/A
+  🔹 URL After Submit: N/A
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Too many registration attempts. Please try again later.
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_register/user_register_1767207416654.png
+  🔹 Checks Completed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/register
+     ✔ URL remained the same after form submission
+     ✔ Backend validation error received

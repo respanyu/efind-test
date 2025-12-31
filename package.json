@@ -1,0 +1,45 @@
+{
+  "name": "ethiofind-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "test:home": "cross-env TEST=home node server.js",
+    "test:login": "cross-env TEST=login node server.js",
+    "test:about": "cross-env TEST=about node server.js",
+    "test:register": "cross-env TEST=register node server.js",
+    "test:categories": "cross-env TEST=categories node server.js",
+    "test:categoryPagination": "cross-env TEST=categoryPagination node server.js",
+    "test:footerLinks": "cross-env TEST=footerLinks node server.js",
+    "test:singleBusinessDetails": "cross-env TEST=singleBusinessDetails node server.js",
+    "test:singleCategoryDetails": "cross-env TEST=singleCategoryDetails node server.js",
+    "test:userRegister": "cross-env TEST=userRegister node server.js",
+    "test:userLogin": "cross-env TEST=userLogin node server.js",
+    "test:userDeleteAccount": "cross-env TEST=userDeleteAccount node server.js",
+    "test:userActivateAccount": "cross-env TEST=userActivateAccount node server.js",
+    "test:userLogout": "cross-env TEST=userLogout node server.js",
+    "test:userPasswordReset": "cross-env TEST=userPasswordReset node server.js",
+    "test:addBusiness": "cross-env TEST=addBusiness node server.js",
+    "test:claimBusiness": "cross-env TEST=claimBusiness node server.js",
+    "test:editBusiness": "cross-env TEST=editBusiness node server.js",
+    "test:searchBusiness": "cross-env TEST=searchBusiness node server.js",
+    "test:userAddBusinessWhileLoggedIn": "cross-env TEST=userAddBusinessWhileLoggedIn node server.js",
+    "test:businessLogoUpload": "cross-env TEST=businessLogoUpload node server.js",
+    "test:businessInquiry": "cross-env TEST=businessInquiry node server.js",
+    "test:businessInquiryDisabled": "cross-env TEST=businessInquiryDisabled node server.js",
+    "test:pageNotFound": "cross-env TEST=pageNotFound node server.js",
+    "test:sessionPersistence": "cross-env TEST=sessionPersistence node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^143.0.3",
+    "dotenv": "^17.2.3",
+    "selenium-webdriver": "^4.39.0"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
