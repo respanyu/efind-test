@@ -1,118 +1,109 @@
 # EthioFind Selenium Test Suite
 
-A comprehensive Selenium WebDriver test suite for testing the EthioFind Ethiopian business directory website functionality.
+[![CI Status](https://github.com/respanyu/efind-test/workflows/Selenium%20CI%20Tests/badge.svg)](https://github.com/respanyu/efind-test/actions)
 
-## Prerequisites
+Automated Selenium WebDriver tests for the EthioFind Ethiopian business directory website.
 
-- **Node.js** (v14 or higher)
-- **npm** (comes with Node.js)
-- **Google Chrome** browser
-- **ChromeDriver** (automatically managed)
-
-## Installation
-
-1. Clone or download the project
-2. Navigate to the project directory:
-   ```bash
-   cd ethiofind-2
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Running Tests
-
-### Run All Tests
+## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/respanyu/efind-test.git
+cd efind-test
+npm install
 npm test
 ```
 
-### Run Specific Test Categories
+## 📋 Prerequisites
 
-#### Page Load Tests
+- Node.js (v14+)
+- Google Chrome
+- npm
 
-```bash
-npm run test:home              # Home page load
-npm run test:login             # Login page load
-npm run test:about             # About page load
-npm run test:register          # Register page load
-npm run test:categories        # Categories page load
-npm run test:categoryPagination # Category pagination
-```
+## 🧪 Available Tests
 
-#### User Authentication Tests
+### Page Load Tests
 
 ```bash
-npm run test:userRegister      # User registration
-npm run test:userLogin         # User login
-npm run test:userLogout        # User logout
-npm run test:userDeleteAccount # Account deletion
-npm run test:userActivateAccount # Account activation
-npm run test:userPasswordReset # Password reset
+npm run test:home                    # Home page
+npm run test:login                   # Login page
+npm run test:register                # Register page
+npm run test:categories              # Categories page
+npm run test:singleBusinessDetails   # Business details
+npm run test:singleCategoryDetails   # Category details
 ```
 
-#### Business Tests
+### User Authentication
 
 ```bash
-npm run test:addBusiness       # Add business
-npm run test:claimBusiness     # Claim business
-npm run test:editBusiness      # Edit business
-npm run test:searchBusiness    # Search businesses
-npm run test:businessInquiry   # Business inquiry (logged in)
-npm run test:businessInquiryDisabled # Business inquiry (not logged in)
+npm run test:userRegister            # User registration
+npm run test:userLogin               # User login
+npm run test:userLogout              # User logout
+npm run test:userActivateAccount     # Account activation
+npm run test:userPasswordReset       # Password reset
+npm run test:userDeleteAccount       # Account deletion
 ```
 
-#### Advanced Tests
+### Business Management
 
 ```bash
-npm run test:sessionPersistence # Session persistence across tabs
-npm run test:singleBusinessDetails # Individual business page
-npm run test:singleCategoryDetails # Individual category page
-npm run test:pageNotFound # 404 error page handling
+npm run test:addBusiness             # Add business
+npm run test:editBusiness            # Edit business
+npm run test:claimBusiness           # Claim business
+npm run test:searchBusiness          # Search businesses
+npm run test:businessLogoUpload      # Logo upload
 ```
 
-## Test Results
+### Advanced Features
 
-- Test results are displayed in the console
-- Screenshots are automatically captured on test failures
-- Logs are saved in the `reports/` directory
-- Each test shows:
-  - ✅ Pass/Fail status
-  - Response time
-  - Detailed checks performed
-  - Any error messages
+```bash
+npm run test:businessInquiry         # Business inquiries
+npm run test:sessionPersistence      # Session handling
+npm run test:pageNotFound            # 404 pages
+npm run test:footerLinks             # Footer links
+```
 
-## Configuration
+## 📊 Test Results
 
-Test configuration can be modified in:
+- Console output with pass/fail status
+- Response times and performance metrics
+- Automatic screenshots on failures (`reports/screenshots/`)
+- Detailed logs in `reports/` directory
 
-- `config/config.js` - Base URLs, timeouts, performance thresholds
+## ⚙️ Configuration
+
+- `config/config.js` - Base URLs and timeouts
 - `config/driver.js` - Browser settings
-- Individual test `testData.js` files - Test data and credentials
+- Individual `testData.js` files - Test data
 
-## Browser Requirements
+## 🏗️ Project Structure
 
-- Tests run on Google Chrome by default
-- ChromeDriver is automatically managed
-- Headless mode can be configured in `config/driver.js`
+```
+ethiofind-2/
+├── .github/workflows/     # CI/CD
+├── config/               # Configuration
+├── tests/                # Test modules
+├── utils/                # Helpers (logger, screenshot, timer)
+├── reports/              # Results and screenshots
+├── server.js            # Test runner
+└── package.json         # Dependencies
+```
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
-1. **ChromeDriver issues**: Make sure Chrome browser is installed and up to date
-2. **Network timeouts**: Check internet connection and website availability
-3. **Test failures**: Check `reports/screenshots/` for failure screenshots
-4. **Permission issues**: Ensure write permissions for `reports/` directory
+- **Chrome issues**: Update Chrome and ChromeDriver
+- **Network timeouts**: Check internet connection
+- **CI failures**: Check `reports/screenshots/` for details
+- **Permissions**: Ensure write access to `reports/` directory
 
-## Adding New Tests
+## 🤝 Contributing
 
-1. Create a new directory under `tests/`
-2. Add `testData.js` for test data
-3. Create `[testName].test.js` with test logic
-4. Add import and condition in `server.js`
-5. Add npm script in `package.json`
+1. Create test directory under `tests/`
+2. Add `testData.js` and `[name].test.js`
+3. Register in `server.js`
+4. Add npm script in `package.json`
 
-## Support
+## 📄 License
 
-For issues or questions about the test suite, check the test logs and screenshots in the `reports/` directory.
+ISC License - see [LICENSE](LICENSE) file.
+
+---
