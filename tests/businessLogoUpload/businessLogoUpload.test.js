@@ -262,7 +262,10 @@ async function businessLogoUploadTest() {
     responseTime = endTimer(start);
     checks.push(`Test completed in ${responseTime}ms`);
 
-    logTestResult(TEST_NAME, "PASS", checks, responseTime);
+    logTestResult("PASS", TEST_NAME, {
+      "Checks Performed": checks,
+      "Response Time": `${responseTime}ms`,
+    });
     return { status: "PASS", checks, responseTime };
   } catch (error) {
     console.error(`Test failed: ${error.message}`);
@@ -275,7 +278,11 @@ async function businessLogoUploadTest() {
       checks.push(`Failed to capture screenshot: ${screenshotError.message}`);
     }
 
-    logTestResult(TEST_NAME, "FAIL", checks, responseTime);
+    logTestResult("FAIL", TEST_NAME, {
+      "Checks Performed": checks,
+      "Response Time": responseTime ? `${responseTime}ms` : "Not measured",
+      Error: error.message,
+    });
     return { status: "FAIL", checks, responseTime, error: error.message };
   } finally {
     await driver.quit();

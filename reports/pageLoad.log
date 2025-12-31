@@ -1,0 +1,546 @@
+[2025-12-31T20:06:06.464Z] ✅ Home Page Load [PASS]
+  🔹 URL: https://ethiofind.com
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Response Time: 4086 ms
+  🔹 Checks Passed:
+     ✔ Homepage URL opened successfully
+     ✔ Page title is present
+     ✔ Page loaded but slower than expected (4086 ms)
+[2025-12-31T20:06:12.455Z] ✅ Verify Login Page Loads and Displays Form [PASS]
+  🔹 URL: https://ethiofind.com/user/login
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Response Time: 4812 ms
+  🔹 Checks Passed:
+     ✔ Login page URL opened
+     ✔ Login page title is present
+     ✔ Email input field is present
+     ✔ Password input field is present
+     ✔ Login submit button is present
+     ✔ Page loaded in 4812 ms
+[2025-12-31T20:06:17.181Z] ✅ About Page Load [PASS]
+  🔹 URL: https://ethiofind.com/about
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Response Time: 3729 ms
+  🔹 Checks Passed:
+     ✔ About page URL opened successfully
+     ✔ About page title is present
+     ✔ Page loaded but slower than expected (3729 ms)
+[2025-12-31T20:06:22.794Z] ✅ Verify Register Page Loads and Displays Form [PASS]
+  🔹 URL: https://ethiofind.com/user/register
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Response Time: 4357 ms
+  🔹 Checks Passed:
+     ✔ Register page URL opened
+     ✔ Register page title is present
+     ✔ Username input field is present
+     ✔ Email input field is present
+     ✔ Password input field is present
+     ✔ Repeat Password input field is present
+     ✔ Register submit button is present
+     ✔ Page loaded in 4357 ms
+[2025-12-31T20:06:28.583Z] ✅ Verify All Categories Page Loads and Lists Categories [PASS]
+  🔹 URL: https://ethiofind.com/categories
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Response Time: 4790 ms
+  🔹 Checks Passed:
+     ✔ Categories page URL opened successfully
+     ✔ Page title is present
+     ✔ Main categories container found
+     ✔ Categories found (26 total)
+     ✔ Page loaded but slower than expected (4790 ms)
+[2025-12-31T20:06:41.494Z] ✅ Category Business Pagination [PASS]
+  🔹 Category Clicked: Agriculture & Farming
+  🔹 Category URL: https://ethiofind.com/category/agriculture-farming
+  🔹 Final URL: https://ethiofind.com/category/agriculture-farming?page=2
+  🔹 Pagination Found: Yes
+  🔹 Pagination Type: Bulma pagination
+  🔹 Response Time: 11676 ms
+  🔹 Result: Category pagination functionality verified
+  🔹 Checks Passed:
+     ✔ Categories page opened successfully
+     ✔ Clicked on category: "Agriculture & Farming" (https://ethiofind.com/category/agriculture-farming)
+     ✔ Redirected to category page: https://ethiofind.com/category/agriculture-farming
+     ✔ Businesses found on category page: 5
+     ✔ Pagination controls found on category page
+     ✔ Next page button found and clickable
+     ✔ Clicked next page button
+     ✔ URL changed to: https://ethiofind.com/category/agriculture-farming?page=2 (pagination working)
+     ✔ Business count remained same (may be last page or same content)
+     ✔ Category pagination test completed but slower than expected (11676 ms)
+[2025-12-31T20:06:49.077Z] ✅ Verify Single Business Details Page Loads [PASS]
+  🔹 URL: https://ethiofind.com/business/midroc-ethiopia-machinery-manufacturing-338
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Business Name: Midroc Ethiopia Machinery Manufac
+  🔹 Response Time: 6679 ms
+  🔹 Checks Passed:
+     ✔ Home page opened successfully
+     ✔ First business link located
+     ✔ Business name captured: "Midroc Ethiopia Machinery Manufac"
+     ✔ Clicked on business link
+     ✔ Business details page loaded
+     ✔ Page title is present
+     ✔ Current URL: https://ethiofind.com/business/midroc-ethiopia-machinery-manufacturing-338
+     ✔ Page loaded but slower than expected (6679 ms)
+[2025-12-31T20:07:00.817Z] ✅ Single Category Detail Test [PASS]
+  🔹 URL: https://ethiofind.com/category/agriculture-farming
+  🔹 Page Title: EthioFind - Your Ethiopian Business Directory
+  🔹 Category Name: Agriculture & Farming
+  🔹 Response Time: 10786 ms
+  🔹 Checks Passed:
+     ✔ Categories page opened successfully
+     ✔ Categories container located
+     ✔ Category link found: "Agriculture & Farming"
+     ✔ Clicked on category link
+     ✔ Category detail page loaded
+     ✔ Page title is present
+     ✔ Current URL: https://ethiofind.com/category/agriculture-farming
+     ✔ Page loaded but slower than expected (10786 ms)
+[2025-12-31T20:07:13.533Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 11663 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 11663 ms
+[2025-12-31T20:07:25.220Z] ✅ User Activates Account and Verifies Login [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/7a421ce7e2c9847690fb1e9917e21474a09f5fb861f670c284552afc642fcbff
+  🔹 Final URL After Login: https://ethiofind.com/user/profile
+  🔹 Response Time: 10609 ms
+  🔹 Result: Account activation and login verification successful
+  🔹 Checks Passed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/7a421ce7e2c9847690fb1e9917e21474a09f5fb861f670c284552afc642fcbff
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activation success: Account activated successfully. You can log in now
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Login successful after activation - redirected to: https://ethiofind.com/user/profile
+     ✔ Logout button confirmed: "LOGOUT"
+     ✔ Account activation and verification completed but slower than expected (10609 ms)
+[2025-12-31T20:07:50.917Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 15040ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767211669189.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T20:08:01.960Z] ✅ User Logs Out After Being Logged In [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Hamburger Menu Used: No
+  🔹 URL After Logout: https://ethiofind.com/
+  🔹 Response Time: 10024 ms
+  🔹 Result: User successfully logged out
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Successfully logged in and redirected
+     ✔ No hamburger menu found - checking for logout button in regular navigation
+     ✔ Clicked logout button: "LOGOUT"
+     ✔ URL after logout: https://ethiofind.com/
+     ✔ Successfully logged out - redirected to appropriate page
+     ✔ Logout button no longer present - logout confirmed
+     ✔ Login form present - logout successful
+     ✔ Login and logout completed but slower than expected (10024 ms)
+[2025-12-31T20:08:15.730Z] ✅ User Requests Password Reset [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/password/request
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Final URL: https://ethiofind.com/user/login
+  🔹 Response Time: 12622 ms
+  🔹 Result: Password reset request submitted without errors
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Clicked reset link: "Reset Here"
+     ✔ Redirected to password reset page
+     ✔ Filled email field with: tester@ethiofind.com
+     ✔ URL before reset form submission: https://ethiofind.com/user/password/request
+     ✔ Clicked reset button: "Reset Password"
+     ✔ URL after reset form submission: https://ethiofind.com/user/login
+     ✔ URL changed after reset form submission - redirect successful
+     ✔ Success message: Please check your email to reset your password.
+     ✔ Password reset request completed successfully
+     ✔ Password reset request completed but slower than expected (12622 ms)
+[2025-12-31T20:08:45.381Z] ✅ Add Business from Home Page [PASS]
+  🔹 Business Name: Test Business Inc 1767211550248
+  🔹 Email: testbusiness1767211550248@example.com
+  🔹 Phone: 0912345678
+  🔹 City: Addis Ababa
+  🔹 Category: IT & Telecommunications
+  🔹 Subcategory: Software Development & Design
+  🔹 Address: 123 Main Street, Addis Ababa, Ethiopia
+  🔹 Products/Services: Software Development, IT Consulting, Web Design
+  🔹 Website: https://www.testbusiness.com
+  🔹 Description: A leading technology company providing innovative software solutions and IT services to businesses across Ethiopia.
+  🔹 Logo Uploaded: Yes
+  🔹 Final URL: https://ethiofind.com/update/business-images?task=upload
+  🔹 Response Time: 28538 ms
+  🔹 Result: Business registration and logo upload completed
+  🔹 Checks Passed:
+     ✔ Home page opened successfully
+     ✔ Business add form is visible
+     ✔ Filled business name: Test Business Inc 1767211550248
+     ✔ Filled telephone: 0912345678
+     ✔ Selected city: Addis Ababa
+     ✔ Filled email: testbusiness1767211550248@example.com
+     ✔ Selected business category: IT & Telecommunications
+     ✔ Clicked 'Add this Business' button
+     ✔ Redirected to business details page for additional information
+     ✔ Additional business details form is visible
+     ✔ Selected subcategory: Software Development & Design
+     ✔ Filled address: 123 Main Street, Addis Ababa, Ethiopia
+     ✔ Filled products and services: Software Development, IT Consulting, Web Design
+     ✔ Filled website: https://www.testbusiness.com
+     ✔ Failed to fill description: Waiting until element is visible
+Wait timed out after 5126ms
+     ✔ Filled business description using JavaScript: A leading technology company providing innovative software solutions and IT services to businesses across Ethiopia.
+     ✔ Clicked 'Update' button to complete business registration
+     ✔ Redirected to business logo upload page
+     ✔ Logo upload form is visible
+     ✔ Selected logo file: ../../files/logo.png
+     ✔ Clicked 'Upload' button to upload business logo
+     ✔ Success message: Your business logo has been uploaded. Please upload your business images below
+     ✔ Business registration and logo upload completed successfully
+     ✔ Business registration completed but slower than expected (28538 ms)
+[2025-12-31T20:09:10.755Z] ✅ Claim Business [PASS]
+  🔹 User Email: tester@ethiofind.com
+  🔹 Claim Option: yes
+  🔹 Final URL: https://ethiofind.com/business/edit-info
+  🔹 Response Time: 24171 ms
+  🔹 Result: Business claim completed successfully (no errors)
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear
+     ✔ Navigated to home page
+     ✔ Clicked on business: Midroc Ethiopia Machinery Manufac
+     ✔ Clicked 'Claim business' link
+     ✔ Selected 'Yes' option to claim business
+     ✔ Clicked 'Submit' button to complete claim
+     ✔ Business claim completed successfully (no error messages found)
+     ✔ Business claim completed - redirected away from claim page
+     ✔ Business claim completed but slower than expected (24171 ms)
+[2025-12-31T20:09:41.155Z] ✅ Edit Business [PASS]
+  🔹 User Email: tester@ethiofind.com
+  🔹 Subcategory: Agribusiness Consulting
+  🔹 Address: Updated Address: 456 Business District, Addis Ababa, Ethiopia
+  🔹 Products/Services: Business Consulting, Market Analysis, Strategic Planning, Financial Advisory
+  🔹 Website: https://www.updatedbusiness.com
+  🔹 Description: Updated business description: A comprehensive agribusiness consulting firm providing expert guidance and strategic solutions for agricultural enterprises across Ethiopia.
+  🔹 Final URL: https://ethiofind.com/business/edit-info
+  🔹 Response Time: 29268 ms
+  🔹 Result: Business update completed
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear
+     ✔ Clicked 'Your Business' link/button
+     ✔ Selected subcategory: Agribusiness Consulting
+     ✔ Filled address: Updated Address: 456 Business District, Addis Ababa, Ethiopia
+     ✔ Filled products and services: Business Consulting, Market Analysis, Strategic Planning, Financial Advisory
+     ✔ Filled website: https://www.updatedbusiness.com
+     ✔ Description field fill failed with standard method: Waiting until element is visible
+Wait timed out after 5092ms
+     ✔ Filled business description using JavaScript fallback: Updated business description: A comprehensive agribusiness consulting firm providing expert guidance and strategic solutions for agricultural enterprises across Ethiopia.
+     ✔ Clicked 'Update' button to save business changes
+     ✔ Success message: Website: https://www.updatedbusiness.com
+     ✔ Business update completed successfully
+     ✔ Business update completed but slower than expected (29268 ms)
+[2025-12-31T20:10:00.861Z] ✅ Search Business Test [PASS]
+  🔹 Field Requirements: Keyword: required, City: optional
+  🔹 Scenarios Tested: 3
+  🔹 Scenario Details:
+     ✔ Full Search (Keyword + City) - PASS (1656ms): Entered keyword: restaurant, Entered city: Addis Ababa, Clicked Find button, Navigated to search results page, Search URL: https://ethiofind.com/search?keyword=restaurant&city=Addis+Ababa
+     ✔ Keyword Only Search - PASS (1391ms): Entered keyword: restaurant, City field left empty, Clicked Find button, Navigated to search results page, Search URL: https://ethiofind.com/search?keyword=restaurant&city=
+     ✔ City Only Search - PASS (6023ms): Keyword field left empty, Entered city: Addis Ababa, Clicked Find button, Expected: No navigation since keyword is required and empty
+[2025-12-31T20:10:17.290Z] ✅ User Add Business While Logged In [PASS]
+  🔹 Registration Form Found: Yes
+  🔹 Submit Button Found: Yes
+  🔹 Submit Button Disabled: No
+  🔹 Response Time: 15157 ms
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear - proceeding anyway
+     ✔ Business registration form found on home page
+     ✔ Filled business name: Test Claimed Business
+     ✔ Filled telephone: 0912345678
+     ✔ Selected city: Addis Ababa
+     ✔ Filled email: claimedbusiness@example.com
+     ✔ Selected business category: IT & Telecommunications
+     ✔ Business registration form filled completely
+     ✔ Found 'Add this Business' submit button
+     ✔ 'Add this Business' button is enabled - attempting to submit
+     ✔ Clicked 'Add this Business' submit button
+     ✔ URL after clicking submit button: https://ethiofind.com/
+     ✔ Message after submission attempt: "You have already claimed a business. You can only claim one business."
+     ✔ Current URL after submission attempt: https://ethiofind.com/
+[2025-12-31T20:10:38.082Z] ❌ Business Inquiry [FAIL]
+  🔹 User Email: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Failed to access or fill inquiry form
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/business_inquiry/business_inquiry_1767211837686.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear
+     ✔ Navigated to home page
+     ✔ Clicked on business: Midroc Ethiopia Machinery Manufac
+     ✔ Inquiry form found on business page
+     ✔ Filled subject: Business Inquiry Test
+     ✔ Filled inquiry message
+     ✔ Located the inquiry form element
+     ✔ Clicked Submit button on inquiry form
+     ✔ Error message found after submission: "Invalid email address"
+     ✔ Inquiry form not found or failed to fill: Inquiry submission failed: Invalid email address
+[2025-12-31T20:10:47.297Z] ✅ Business Inquiry Form Disabled When Not Logged In [PASS]
+  🔹 Business URL: https://ethiofind.com/business/agrifarm-agricultural-inputs-and-equipment-importe-334
+  🔹 Login Notification Found: Yes
+  🔹 Notification Text: To avoid spamming, please log in to send a message to this business
+  🔹 Response Time: 8096 ms
+  🔹 Result: Business inquiry form properly disabled for unauthenticated users
+  🔹 Checks Passed:
+     ✔ Home page opened successfully (not logged in)
+     ✔ Clicked on business: Agrifarm Agricultural Inputs and
+     ✔ Login notification found: "To avoid spamming, please log in to send a message to this business"
+     ✔ Inquiry form found on business page
+     ✔ Subject field is disabled (as expected for non-logged-in users)
+     ✔ Message field is disabled (as expected for non-logged-in users)
+     ✔ Submit button is enabled (unexpected for non-logged-in users)
+     ✔ Submit button not found or status unclear
+     ✔ Current URL: https://ethiofind.com/business/agrifarm-agricultural-inputs-and-equipment-importe-334
+     ✔ Business inquiry form properly disabled for non-logged-in users
+     ✔ Test completed but slower than expected (8096 ms)
+[2025-12-31T20:10:56.456Z] ✅ Page Not Found (404) [PASS]
+  🔹 Tested URL: https://ethiofind.com/non-existent-page-404-test-1767211848379
+  🔹 Final URL: https://ethiofind.com/error
+  🔹 Page Title: ethiofind.com
+  🔹 Error Found: Yes
+  🔹 Error Details: 
+  🔹 Response Time: 8025 ms
+  🔹 Result: 404 page handled correctly
+  🔹 Checks Passed:
+     ✔ Attempted to access non-existent URL: https://ethiofind.com/non-existent-page-404-test-1767211848379
+     ✔ Current URL after navigation: https://ethiofind.com/error
+     ✔ Page title: "ethiofind.com"
+     ✔ Page has minimal content (125 characters) - likely error page
+     ✔ 404 page loaded but slower than expected (8025 ms)
+[2025-12-31T20:11:10.209Z] ✅ Session Persistence [PASS]
+  🔹 User Email: tester@ethiofind.com
+  🔹 Hamburger Menu Used: No
+  🔹 Original Tab URL: https://ethiofind.com/user/profile
+  🔹 New Tab URL: https://ethiofind.com/
+  🔹 Logout Button Found: Yes
+  🔹 Response Time: 12815 ms
+  🔹 Result: Session persists across tabs
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear in original tab
+     ✔ Stored original window handle
+     ✔ Opened new tab
+     ✔ Found 2 window handles
+     ✔ Switched to new tab
+     ✔ Navigated to site in new tab
+     ✔ No hamburger menu found in new tab - checking for logout button in regular navigation
+     ✔ Logout button found and visible in new tab header
+     ✔ New tab URL: https://ethiofind.com/
+     ✔ Switched back to original tab
+     ✔ Original tab logout button not found - session may have issues
+     ✔ Session persistence test passed - logout button found in new tab
+[2025-12-31T20:11:38.970Z] ❌ PASS [Business Logo Upload]
+  🔹 0: Login page opened successfully
+  🔹 1: Filled email: tester@ethiofind.com
+  🔹 2: Filled password
+  🔹 3: Clicked Sign In button
+  🔹 4: Login status unclear
+  🔹 5: Clicked 'Your Business' link/button
+  🔹 6: Clicked 'Business Logo' link
+  🔹 7: Found logo upload input field
+  🔹 8: Selected logo file for upload
+  🔹 9: Clicked upload/submit button
+  🔹 10: Logo preview image found - upload appears successful
+  🔹 11: Test completed in 27802ms
+[2025-12-31T20:11:52.590Z] ✅ User Deletes Their Account [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Final URL: https://ethiofind.com/user/login
+  🔹 Response Time: 12414 ms
+  🔹 Result: Account deletion completed
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Successfully logged in and redirected
+     ✔ Clicked Edit Profile button
+     ✔ Redirected to edit profile page
+     ✔ Clicked Delete Account link
+     ✔ Redirected to delete account confirmation page
+     ✔ Selected 'Yes' to confirm account deletion
+     ✔ Clicked Delete Account confirmation button
+     ✔ Final URL after deletion: https://ethiofind.com/user/login
+     ✔ Account deletion completed but slower than expected (12414 ms)
+[2025-12-31T20:13:02.066Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Wait timed out after 15167ms
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767211981810.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T20:13:46.046Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed: Invalid login. email or password is incorrect
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767212025676.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T20:14:39.913Z] ❌ FAIL [Business Logo Upload]
+  🔹 0: Login page opened successfully
+  🔹 1: Filled email: tester@ethiofind.com
+  🔹 2: Filled password
+  🔹 3: Clicked Sign In button
+  🔹 4: Login status unclear
+  🔹 5: Test failed: Could not find 'Your Business' link or button
+  🔹 6: Screenshot captured on failure
+[2025-12-31T20:15:02.363Z] ✅ User Registers a New Account Successfully [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 URL Before Submit: https://ethiofind.com/user/register
+  🔹 URL After Submit: https://ethiofind.com/user/login
+  🔹 URL Changed: Yes
+  🔹 Response Time: 10290 ms
+  🔹 Success Message: You have been registered. Please check your email to activate your account.
+  🔹 Checks Passed:
+     ✔ Register page loaded
+     ✔ Filled registration form with email: tester@ethiofind.com
+     ✔ URL before form submission: https://ethiofind.com/user/register
+     ✔ Clicked Create Account button
+     ✔ URL after form submission: https://ethiofind.com/user/login
+     ✔ URL changed after form submission - redirect successful
+     ✔ Registration successful: "You have been registered. Please check your email to activate your account."
+     ✔ Response time: 10290 ms
+[2025-12-31T20:15:19.135Z] ❌ User Login Test [FAIL]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Response Time: Not measured
+  🔹 Failure Reason: Login failed: Please activate your account
+  🔹 Screenshot: /home/bek/Desktop/test/ethiofind-2/reports/screenshots/user_login/user_login_1767212118753.png
+  🔹 Checks Completed:
+     ✔ Login page opened successfully
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+[2025-12-31T20:15:39.262Z] ✅ User Activates Account and Verifies Login [PASS]
+  🔹 Email Used: tester@ethiofind.com
+  🔹 Verification Link: https://ethiofind.com/user/activate/48fba04cd076db64af7e12283f2ec1490f3ebc50aed2813d45252018b5aa60f6
+  🔹 Final URL After Login: https://ethiofind.com/user/profile
+  🔹 Response Time: 9647 ms
+  🔹 Result: Account activation and login verification successful
+  🔹 Checks Passed:
+     ✔ Reading verification link from ethiofind.com/auth.txt
+     ✔ Verification link retrieved: https://ethiofind.com/user/activate/48fba04cd076db64af7e12283f2ec1490f3ebc50aed2813d45252018b5aa60f6
+     ✔ Navigated to verification link
+     ✔ Activation page URL: https://ethiofind.com/user/login
+     ✔ Account activation success: Account activated successfully. You can log in now
+     ✔ Navigated to login page to verify activation
+     ✔ Filled login form with email: tester@ethiofind.com
+     ✔ Clicked Sign In button
+     ✔ Login successful after activation - redirected to: https://ethiofind.com/user/profile
+     ✔ Logout button confirmed: "LOGOUT"
+     ✔ Account activation and verification completed but slower than expected (9647 ms)
+[2025-12-31T20:15:59.398Z] ❌ FAIL [Business Logo Upload]
+  🔹 0: Login page opened successfully
+  🔹 1: Filled email: tester@ethiofind.com
+  🔹 2: Filled password
+  🔹 3: Clicked Sign In button
+  🔹 4: Login status unclear
+  🔹 5: Clicked 'Your Business' link/button
+  🔹 6: Test failed: Could not find 'Business Logo' link
+  🔹 7: Screenshot captured on failure
+[2025-12-31T20:16:38.006Z] ✅ Claim Business [PASS]
+  🔹 User Email: tester@ethiofind.com
+  🔹 Claim Option: yes
+  🔹 Final URL: https://ethiofind.com/business/edit-info
+  🔹 Response Time: 23573 ms
+  🔹 Result: Business claim completed successfully (no errors)
+  🔹 Checks Passed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear
+     ✔ Navigated to home page
+     ✔ Clicked on business: AWOL kedir
+     ✔ Clicked 'Claim business' link
+     ✔ Selected 'Yes' option to claim business
+     ✔ Clicked 'Submit' button to complete claim
+     ✔ Business claim completed successfully (no error messages found)
+     ✔ Business claim completed - redirected away from claim page
+     ✔ Business claim completed but slower than expected (23573 ms)
+[2025-12-31T20:17:07.044Z] ❌ PASS [Business Logo Upload]
+  🔹 0: Login page opened successfully
+  🔹 1: Filled email: tester@ethiofind.com
+  🔹 2: Filled password
+  🔹 3: Clicked Sign In button
+  🔹 4: Login status unclear
+  🔹 5: Clicked 'Your Business' link/button
+  🔹 6: Clicked 'Business Logo' link
+  🔹 7: Found logo upload input field
+  🔹 8: Selected logo file for upload
+  🔹 9: Clicked upload/submit button
+  🔹 10: Logo preview image found - upload appears successful
+  🔹 11: Test completed in 25550ms
+[2025-12-31T20:19:43.815Z] ❌ PASS [Business Logo Upload]
+  🔹 0: Login page opened successfully
+  🔹 1: Filled email: tester@ethiofind.com
+  🔹 2: Filled password
+  🔹 3: Clicked Sign In button
+  🔹 4: Login status unclear
+  🔹 5: Clicked 'Your Business' link/button
+  🔹 6: Clicked 'Business Logo' link
+  🔹 7: Found logo upload input field
+  🔹 8: Selected logo file for upload
+  🔹 9: Clicked upload/submit button
+  🔹 10: Logo preview image found - upload appears successful
+  🔹 11: No error icons (x) displayed - upload appears clean
+  🔹 12: Test completed in 25406ms
+[2025-12-31T20:21:31.709Z] ✅ Business Logo Upload [PASS]
+  🔹 Checks Performed:
+     ✔ Login page opened successfully
+     ✔ Filled email: tester@ethiofind.com
+     ✔ Filled password
+     ✔ Clicked Sign In button
+     ✔ Login status unclear
+     ✔ Clicked 'Your Business' link/button
+     ✔ Clicked 'Business Logo' link
+     ✔ Found logo upload input field
+     ✔ Selected logo file for upload
+     ✔ Clicked upload/submit button
+     ✔ Logo preview image found - upload appears successful
+     ✔ Test completed in 26470ms
+  🔹 Response Time: 26470ms

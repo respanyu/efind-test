@@ -27,9 +27,14 @@ async function userLoginTest() {
     await driver.findElement(By.name("password")).sendKeys(userData.password);
     checks.push(`Filled login form with email: ${userData.email}`);
 
-    await driver.wait(until.elementLocated(By.css("button[type='submit']")), 5000);
+    await driver.wait(
+      until.elementLocated(
+        By.xpath("//button[@type='submit' and contains(text(),'Sign In')]")
+      ),
+      5000
+    );
     const submitButton = await driver.findElement(
-      By.css("button[type='submit']")
+      By.xpath("//button[@type='submit' and contains(text(),'Sign In')]")
     );
     await submitButton.click();
     checks.push("Clicked Sign In button");
